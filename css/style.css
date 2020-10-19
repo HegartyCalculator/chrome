@@ -1,0 +1,122 @@
+/* Page-wide CSS */
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    min-height: 60px;
+    /* reduced from 200 as buttons removed */
+    padding: 5px;
+    width: 500px;
+}
+
+/* Modal CSS */
+.modal-header {
+    align-items: center;
+    border-bottom: 0.5px solid #dadada;
+}
+
+.modal-buttons {
+
+    /* border-top: 0.5px solid #dadada; */
+    height: 50px;
+    width: 100%;
+}
+
+.modal-content {
+    padding: 0 22px;
+}
+
+.modal-calculations {
+    border-top: 0.5px solid #dadada;
+    padding: 10px 22px;
+}
+
+/* Flex CSS */
+.flex-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px 22px;
+}
+
+.flex {
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out;
+    width: 120px;
+}
+
+.flex:hover {
+    opacity: 0.85;
+}
+
+/* Text CSS */
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 0;
+}
+
+.version {
+    color: #444;
+    font-size: 18px;
+}
+
+/* Image CSS */
+img {
+    width: 30px;
+}
+
+.logo {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.logo-icon {
+    vertical-align: text-bottom;
+    margin-right: 3px;
+}
+
+/* Button CSS */
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer
+}
+
+.button-calculate {
+    background-color: #008CBA;
+}
+
+.button-discord {
+    background-color: #7289DA;
+}
+
+a:link,
+a:visited {
+    color: #000;
+    outline: 0;
+    text-decoration: none;
+}
+
+/* Utility CSS */
+.noselect {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}

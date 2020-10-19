@@ -1,0 +1,5 @@
+var manifest = chrome.runtime.getManifest(); // Grab the manifest.json file
+var art = '  _    _                       _            _____      _            _       _             \r\n | |  | |                     | |          \/ ____|    | |          | |     | |            \r\n | |__| | ___  __ _  __ _ _ __| |_ _   _  | |     __ _| | ___ _   _| | __ _| |_ ___  _ __ \r\n |  __  |\/ _ \\\/ _` |\/ _` | \'__| __| | | | | |    \/ _` | |\/ __| | | | |\/ _` | __\/ _ \\| \'__|\r\n | |  | |  __\/ (_| | (_| | |  | |_| |_| | | |___| (_| | | (__| |_| | | (_| | || (_) | |   \r\n |_|  |_|\\___|\\__, |\\__,_|_|   \\__|\\__, |  \\_____\\__,_|_|\\___|\\__,_|_|\\__,_|\\__\\___\/|_|   \r\n               __\/ |                __\/ |                                                 \r\n              |___\/                |___\/'
+var info = 'Hegarty Calculator has been initialized\n\nAuthors: Ulferno'
+
+console.log(art + '\n\n' + info.concat(' ', `\nVersion: ${manifest.version}`)); // Print ASCII art and information to the console.
