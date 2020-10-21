@@ -26,13 +26,12 @@
         "persistent": false
     },
 
-    "web_accessible_resources": ["js/content/content.js", "js/content/libs/algebra-0.2.6.min.js", "js/content/libs/latex-to-js.js", "js/content/libs/math.min.js", "js/content/libs/evaluatex.min.js"],
+    "web_accessible_resources": ["js/content/content.js", "js/content/libs/algebra-0.2.6.min.js", "js/content/libs/latex-to-js.js", "js/content/libs/math.min.js", "js/content/libs/evaluatex.min.js", "js/content/dark-mode.js"],
 
     "permissions": [
         "storage",
         "background",
         "contextMenus",
         "https://hegartymaths.com/"
-
     ]
 }
